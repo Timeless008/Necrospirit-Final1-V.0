@@ -1,0 +1,6 @@
+NECRO SPIRIT — VERSION 1.0.0 (BUILD 1)
+
+Deze broncode is ingesteld op versie 1.0.0, buildnummer 1.
+De Nederlandse en Engelse horror-woordenlijsten zijn uitgebreid.
+
+Let op: dit archief bouwt via de bestaande workflow een debug-APK. Een versienummer maakt de app niet automatisch officieel erkend door Google Play. Voor publicatie via Google Play is een release-build (meestal Android App Bundle/AAB), geschikte signing en een Play Console-appregistratie en naleving van de actuele Play-regels nodig. De Google Play Protect-scanmelding is geen versiecontrole en wordt niet gegarandeerd door versienummer 1.0.0.

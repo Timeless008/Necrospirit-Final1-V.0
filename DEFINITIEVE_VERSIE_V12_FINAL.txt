@@ -1,0 +1,18 @@
+NECRO SPIRIT — DEFINITIEVE PAKKETVERSIE V12 FINAL
+
+Dit archief bewaart de broncode van de door de gebruiker geteste Necro Spirit v12. De app-code is niet aangepast ten opzichte van v12; alleen de documentatie is bijgewerkt om deze definitieve pakketversie duidelijk te markeren.
+
+Belangrijkste kenmerken:
+- SB70 verwijderd.
+- Automatische woordscan via microfoonspraakherkenning.
+- Willekeurige softwarematig gegenereerde woorden tijdens de actieve scan: eerste woord na ongeveer 12 seconden, daarna met tussenpozen van circa 20–40 seconden.
+- Nederlandse en Engelse interface/woordenlijsten.
+- GitHub Actions-workflow voor het bouwen van de APK.
+
+Gebruik:
+1. Pak de ZIP uit.
+2. Upload de INHOUD naar de hoofdmap van de GitHub-repository; pubspec.yaml, lib/ en assets/ moeten daar direct zichtbaar zijn.
+3. Commit en start Actions > Build Necro Spirit APK > Run workflow.
+4. Download artifact necro-spirit-debug-apk na een geslaagde run.
+
+Technische kanttekening: ZIP-integriteit gecontroleerd; APK niet opnieuw gecompileerd of getest bij het maken van dit archief. De microfoonfunctie is afhankelijk van Android-spraakherkenning. Willekeurige woorden zijn software-effecten, geen bewijs van spiritcommunicatie.
